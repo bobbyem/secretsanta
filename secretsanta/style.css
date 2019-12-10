@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   background-color: rgb(156, 020, 020);
   color: whitesmoke;
@@ -26,6 +31,18 @@ h1 {
   font-size: 4rem;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 button {
   font-size: 3rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#output {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
 }

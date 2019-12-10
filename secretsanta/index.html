@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form>
+    <form onsubmit="return false">
       <h1>Secret Santa Randomizer</h1>
       <label for="number">Number of santas</label>
       <input
@@ -63,8 +63,12 @@
       />
       <br />
 
-      <button type="submit" onclick="randomSanta()">Randomize Santas</button>
+      <button onclick="randomSanta()">Randomize Santas</button>
     </form>
+
+    <div id="output">
+      <h2 id="output-text"></h2>
+    </div>
 
     <script src="script.js" async defer></script>
   </body>
