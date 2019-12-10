@@ -47,6 +47,8 @@ function randomSanta() {
     //clear print array
     printArray = [];
 
+    outputText.classList.remove("hidden");
+
     
   };
 

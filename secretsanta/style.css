@@ -4,10 +4,10 @@ html {
 
 
 body {
-  background-color: rgb(156, 020, 020);
+  background-color: #BB2528;
   color: whitesmoke;
-  font-family: "Mountains of Christmas", cursive;
   width: 100vw;
+  font-family: 'Oxygen', sans-serif;
 }
 
 form {
@@ -17,26 +17,28 @@ form {
 }
 
 input {
-  height: 3rem;
-  font-size: 3rem;
+  font-size: ;
   margin-bottom: 0.5rem;
 }
 
 label {
   margin-right: 1rem;
-  font-size: 2rem;
+  font-size: ;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: ;
+  font-family: "Mountains of Christmas", cursive;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: ;
+  border: ridge 1vw #146B3A;
+  padding: 1vw;
 }
 
 button {
-  font-size: 3rem;
+  font-size: ;
   text-transform: uppercase;
   text-decoration: underline;
 }
@@ -44,5 +46,10 @@ button {
 #output {
   display: flex;
   justify-content: center;
-  padding: 5rem 0;
+  margin: 1rem 0;
+  
+}
+
+.hidden {
+  display: none;
 }
