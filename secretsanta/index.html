@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Secret Santa</title>
+    <meta name="secret-santa" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>Secret Santa Randomizer</h1>
+      <label for="number">Number of santas</label>
+      <input
+        type="number"
+        id="number"
+        name="number"
+        min="3"
+        max="9"
+        placeholder="3"
+        value="3"
+      />
+
+      <br />
+
+      <label for="santa0">Your name</label>
+      <input
+        type="text"
+        id="santa0"
+        name="santa0"
+        placeholder="Your name"
+        required
+      />
+      <br />
+
+      <label for="santa1">Santa n1</label>
+      <input
+        type="text"
+        id="santa1"
+        name="santa1"
+        placeholder="Santa name"
+        required
+      />
+      <br />
+
+      <label for="santa2">Santa n2</label>
+      <input
+        type="text"
+        id="santa2"
+        name="santa2"
+        placeholder="Santa name"
+        required
+      />
+      <br />
+
+      <button type="submit" onclick="randomSanta()">Randomize Santas</button>
+    </form>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>

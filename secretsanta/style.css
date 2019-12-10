@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(156, 020, 020);
+  color: whitesmoke;
+  font-family: "Mountains of Christmas", cursive;
+  width: 100vw;
+}
+
+form {
+  width: 75%;
+  margin-left: 10%;
+  display: grid;
+}
+
+input {
+  height: 3rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  font-size: 3rem;
+}
