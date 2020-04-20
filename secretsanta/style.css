@@ -1,7 +1,7 @@
+/* Dom elements */
 html {
   scroll-behavior: smooth;
 }
-
 
 body {
   background-color: #BB2528;
@@ -11,42 +11,33 @@ body {
   font-size: 16px;
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 
+/* Form elements */
 form {
-  display: grid;
-  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 input {
   font-size: 2rem;
+  width: 100%;
   
 }
-
-
-
-h1 {
-  font-size: 3rem;
-  font-family: "Mountains of Christmas", cursive;
-}
-
-h2 {
-  font-size: 3rem;
-  border: ridge 1vw rgba(20, 107, 58, 0.541);
-  padding: 1vw;
-}
-
-button {
-  text-transform: uppercase;
-  margin: 1vh 0vh;
-  font-size: 2rem;
+/* Divs */
+#main {
+  width: 70%;
+  margin: 0 15%;
+  box-sizing: border-box;
 }
 
 #output {
-  display: grid;
-  margin: 1rem 0;
-  height: auto;
-  justify-content: center;
+  padding: 1rem 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .hidden {
@@ -54,3 +45,33 @@ button {
   height: 0%;
 }
 
+/* Headers and paragraphs */
+h1 {
+  font-size: 3rem;
+  font-family: "Mountains of Christmas", cursive;
+  line-break: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  border: ridge 1vw rgba(20, 107, 58, 0.541);
+  line-break: auto;
+  word-break: break-all;
+}
+
+/* Button */
+button {
+  text-transform: uppercase;
+  padding: 1vh 0vh;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 450px) {
+  #main {
+    width: 100%;
+    margin: 0;
+  }
+}
