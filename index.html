@@ -19,57 +19,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form onsubmit="return false">
-      <h1>Secret Santa Randomizer</h1>
-      <label for="number">Number of santas</label>
-      <input
-        type="number"
-        id="number"
-        name="number"
-        min="3"
-        max="9"
-        placeholder="3"
-        value="3"
-      />
 
-      <br />
+    <div id="main">
+      
+      <form onsubmit="return false">
+        <h1>Secret Santa Randomizer v2</h1>
+   
+  
+        <br />
+  
+        <label for="input-name">Input names</label>
+        <input
+          type="text"
+          id="input-name"
+          name="input-name"
+          placeholder="enter santa name"
+          
+        />
+        <br />
+  
+        <button onclick="storeSanta()" id="store-button">Store Santa</button>
+  
+        <button onclick="clearSantas()">Clear</button>
+  
+  
+  
+        <button onclick="randomSanta()" id="random-button">Randomize Santas</button>
+      </form>
+  
+      <div id="output">
+        <h2 id="output-text" class="hidden"></h2>
+      </div>
 
-      <label for="santa0">Your name</label>
-      <input
-        type="text"
-        id="santa0"
-        name="santa0"
-        placeholder="Your name"
-        required
-      />
-      <br />
-
-      <label for="santa1">Santa n1</label>
-      <input
-        type="text"
-        id="santa1"
-        name="santa1"
-        placeholder="Santa name"
-        required
-      />
-      <br />
-
-      <label for="santa2">Santa n2</label>
-      <input
-        type="text"
-        id="santa2"
-        name="santa2"
-        placeholder="Santa name"
-        required
-      />
-      <br />
-
-      <button onclick="randomSanta()">Randomize Santas</button>
-    </form>
-
-    <div id="output">
-      <h2 id="output-text" class="hidden"></h2>
     </div>
+    
 
     <script src="script.js" async defer></script>
   </body>

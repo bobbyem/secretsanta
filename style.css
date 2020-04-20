@@ -47,13 +47,13 @@ input {
 
 /* Headers and paragraphs */
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Mountains of Christmas", cursive;
   line-break: auto;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border: ridge 1vw rgba(20, 107, 58, 0.541);
   line-break: auto;
   word-break: break-all;
@@ -63,7 +63,7 @@ h2 {
 button {
   text-transform: uppercase;
   padding: 1vh 0vh;
-  font-size: 1.5rem;
+  font-size: 1rem;
   box-sizing: border-box;
   width: 100%;
 }
