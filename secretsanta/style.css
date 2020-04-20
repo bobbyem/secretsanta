@@ -8,48 +8,49 @@ body {
   color: whitesmoke;
   width: 100vw;
   font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  margin:0;
+  padding:0;
 }
 
 form {
-  width: 75%;
-  margin-left: 10%;
   display: grid;
+  width: 100vw;
 }
 
 input {
-  font-size: ;
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  
 }
 
-label {
-  margin-right: 1rem;
-  font-size: ;
-}
+
 
 h1 {
-  font-size: ;
+  font-size: 3rem;
   font-family: "Mountains of Christmas", cursive;
 }
 
 h2 {
-  font-size: ;
-  border: ridge 1vw #146B3A;
+  font-size: 3rem;
+  border: ridge 1vw rgba(20, 107, 58, 0.541);
   padding: 1vw;
 }
 
 button {
-  font-size: ;
   text-transform: uppercase;
-  text-decoration: underline;
+  margin: 1vh 0vh;
+  font-size: 2rem;
 }
 
 #output {
-  display: flex;
-  justify-content: center;
+  display: grid;
   margin: 1rem 0;
-  
+  height: auto;
+  justify-content: center;
 }
 
 .hidden {
   display: none;
+  height: 0%;
 }
+
