@@ -23,7 +23,7 @@ form {
 }
 
 input {
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 100%;
   
 }
@@ -71,7 +71,7 @@ button {
 /* Media Queries*/
 @media screen and (max-width: 450px) {
   #main {
-    width: 100%;
-    margin: 0;
+    width: 95%;
+    margin: 0 2.5%;
   }
 }
