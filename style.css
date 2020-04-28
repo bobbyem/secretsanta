@@ -7,6 +7,7 @@ body {
   background-color: #BB2528;
   color: whitesmoke;
   width: 100vw;
+  height: 100vh;
   font-family: 'Oxygen', sans-serif;
   font-size: 16px;
   margin:0;
@@ -29,8 +30,10 @@ input {
 }
 /* Divs */
 #main {
-  width: 50%;
-  margin: 0 25%;
+  padding-top: 10%;
+  width: 40%;
+  height: 100%;
+  margin: 0 30%;
   box-sizing: border-box;
 }
 
